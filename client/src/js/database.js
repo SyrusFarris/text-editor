@@ -25,7 +25,6 @@ export const putDb = async (content) => {
 };
 
 // TODO: Add logic for a method that gets all the content from the database
-
 // Function for Get
 export const getDb = async () => {
   const jateDb = await openDB('jate', 1);
