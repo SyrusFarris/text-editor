@@ -29,3 +29,17 @@ WHEN I register a service worker
 THEN I should have my static assets precached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
+
+## Difficulties
+I had to do a lot of research on how to do this project. I found a lot of documentation but going through the modules seemed to help out the most. Also figuring out I had to setup the scripts in the package.json files (which I forget to do a lot haha). I succesdully deployed to Heroku for the first time Which Im extrememly proud of! This project was a good learning experience.
+
+
+## Screenshot of deployed project
+
+![screenshot](./client/dist/assets/texteditorscreen.png "screenshot")
+
+## Links: 
+
+Github Repo: https://github.com/SyrusFarris/text-editor
+
+Heroku: https://syrus-texteditor.herokuapp.com/
